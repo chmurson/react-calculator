@@ -1,3 +1,3 @@
-import { Calculator } from './CalculatorContainer'
+import { Calculator } from './Calculator'
 
 export { Calculator }

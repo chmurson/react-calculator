@@ -1,6 +1,6 @@
 import React from 'react'
 import { shallow } from 'enzyme'
-import { Calculator } from './CalculatorContainer'
+import { Calculator } from './Calculator'
 import { OPERATIONS } from './operations'
 
 import { defaultState } from './state'
