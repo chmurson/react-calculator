@@ -1,17 +1,18 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import curry from 'curry'
 
 const ANIMATION_DELAY = 250
 
 /**
- * @param {React.Component|Function} Component
  * @param {String} refPropName
  * @param {function(ref)} keyDown
  * @param {function(ref)}keyUp
  * @param {function({isButtonPressed:boolean})} mapProps
+ * @param {React.Component|Function} Component
  * @return {KeyMap}
  */
-export function withKeyMap(Component, { refPropName, keyDown = none, mapProps }) {
+function withKeyMap({ refPropName, keyDown = none, mapProps }, Component) {
   class KeyMap extends React.Component {
     static propTypes = {
       keyToMap: PropTypes.oneOfType([PropTypes.string, PropTypes.arrayOf(PropTypes.string)]).isRequired,
@@ -80,5 +81,9 @@ export function withKeyMap(Component, { refPropName, keyDown = none, mapProps })
 
   return KeyMap
 }
+
+const curriedWithKeyMap = curry(withKeyMap)
+
+export { curriedWithKeyMap as withKeyMap }
 
 function none() {}

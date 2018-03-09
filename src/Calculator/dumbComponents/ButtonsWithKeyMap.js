@@ -2,7 +2,7 @@ import { withKeyMap } from './withKeyMap'
 import { withGridCell } from './withGridCell'
 import { Button } from './Button'
 
-export const ButtonWithKeyMap = withKeyMap(Button, {
+export const ButtonWithKeyMap = withKeyMap({
   refPropName: 'buttonRef',
   mapProps: ({ isButtonPressed }) => ({
     className: isButtonPressed ? 'custom-button--active' : ''
@@ -10,6 +10,6 @@ export const ButtonWithKeyMap = withKeyMap(Button, {
   keyDown: ref => {
     ref.click()
   }
-})
+})(Button)
 
 export const GridWithKeyMapButton = withGridCell(ButtonWithKeyMap)

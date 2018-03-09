@@ -1,11 +1,11 @@
 import React from 'react'
 import { mount } from 'enzyme'
-import { Button } from '../Button'
+import { CalculatorDumb } from '../CalculatorDumb'
 
-describe('Button', () => {
+describe('CalculatorDumb', () => {
   let component
   beforeAll(() => {
-    component = mount(<Button>text</Button>)
+    component = mount(<CalculatorDumb value="0">text</CalculatorDumb>)
   })
 
   it('matches snapshot', () => {

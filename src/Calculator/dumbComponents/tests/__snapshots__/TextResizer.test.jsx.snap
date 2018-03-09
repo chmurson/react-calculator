@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatorDumb matches snapshot 1`] = `
+<TextResizer
+  maxFontSize={20}
+  maxWidth={200}
+  minFontSize={10}
+>
+  <_class
+    bounds={true}
+    innerRef={[Function]}
+    onResize={[Function]}
+  >
+    <Measure
+      bounds={true}
+      contentRect={
+        Object {
+          "bounds": Object {},
+          "client": Object {},
+          "entry": Object {},
+          "margin": Object {},
+          "offset": Object {},
+          "scroll": Object {},
+        }
+      }
+      measure={[Function]}
+      measureRef={[Function]}
+    />
+  </_class>
+</TextResizer>
+`;

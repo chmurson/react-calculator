@@ -1,0 +1,87 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputButton matches snapshot 1`] = `
+<InputButton
+  input="4"
+  onClick={[Function]}
+>
+  <withKeyMap(Button)}
+    innerRef={[Function]}
+    keyToMap="4"
+    onClick={[Function]}
+  >
+    <Button
+      buttonRef={[Function]}
+      className=""
+      onClick={[Function]}
+      title="Shortcut: 4"
+    >
+      <button
+        className="custom-button custom-button--regular"
+        onClick={[Function]}
+        tabIndex={-1}
+        title="Shortcut: 4"
+      >
+        4
+      </button>
+    </Button>
+  </withKeyMap(Button)}>
+</InputButton>
+`;
+
+exports[`InputGridButton matches snapshot 1`] = `
+<InputGridButton
+  col={1}
+  input="3"
+  onClick={[Function]}
+  row={1}
+>
+  <withGridCell(withKeyMap(Button)})
+    col={1}
+    keyToMap="3"
+    onClick={[Function]}
+    row={1}
+    style={Object {}}
+  >
+    <withKeyMap(Button)}
+      innerRef={[Function]}
+      keyToMap="3"
+      onClick={[Function]}
+      style={
+        Object {
+          "gridColumn": 1,
+          "gridRow": 1,
+        }
+      }
+    >
+      <Button
+        buttonRef={[Function]}
+        className=""
+        onClick={[Function]}
+        style={
+          Object {
+            "gridColumn": 1,
+            "gridRow": 1,
+          }
+        }
+        title="Shortcut: 3"
+      >
+        <button
+          className="custom-button custom-button--regular"
+          onClick={[Function]}
+          style={
+            Object {
+              "gridColumn": 1,
+              "gridRow": 1,
+            }
+          }
+          tabIndex={-1}
+          title="Shortcut: 3"
+        >
+          3
+        </button>
+      </Button>
+    </withKeyMap(Button)}>
+  </withGridCell(withKeyMap(Button)})>
+</InputGridButton>
+`;

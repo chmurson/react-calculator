@@ -1,0 +1,927 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalculatorDumb matches snapshot 1`] = `
+<CalculatorDumb
+  className=""
+  onInput={[Function]}
+  onOperation={[Function]}
+  value="0"
+>
+  <div
+    className="calculator"
+  >
+    <div
+      className="calculator__area-display"
+    >
+      <TextResizer
+        maxFontSize={48}
+        maxWidth={0}
+        minFontSize={12}
+      >
+        <_class
+          bounds={true}
+          innerRef={[Function]}
+          onResize={[Function]}
+        >
+          <Measure
+            bounds={true}
+            contentRect={
+              Object {
+                "bounds": Object {},
+                "client": Object {},
+                "entry": Object {},
+                "margin": Object {},
+                "offset": Object {},
+                "scroll": Object {},
+              }
+            }
+            measure={[Function]}
+            measureRef={[Function]}
+          >
+            <div
+              className="calculator__current-input"
+              style={
+                Object {
+                  "fontSize": 48,
+                }
+              }
+            >
+              0
+            </div>
+          </Measure>
+        </_class>
+      </TextResizer>
+    </div>
+    <div
+      className="calculator__area-buttons"
+    >
+      <InputGridButton
+        col={1}
+        input="7"
+        onClick={[Function]}
+        row={1}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={1}
+          keyToMap="7"
+          onClick={[Function]}
+          row={1}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="7"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 1,
+                "gridRow": 1,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 1,
+                  "gridRow": 1,
+                }
+              }
+              title="Shortcut: 7"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 1,
+                    "gridRow": 1,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 7"
+              >
+                7
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputGridButton
+        col={2}
+        input="8"
+        onClick={[Function]}
+        row={1}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={2}
+          keyToMap="8"
+          onClick={[Function]}
+          row={1}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="8"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 2,
+                "gridRow": 1,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 2,
+                  "gridRow": 1,
+                }
+              }
+              title="Shortcut: 8"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 2,
+                    "gridRow": 1,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 8"
+              >
+                8
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputGridButton
+        col={3}
+        input="9"
+        onClick={[Function]}
+        row={1}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={3}
+          keyToMap="9"
+          onClick={[Function]}
+          row={1}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="9"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 3,
+                "gridRow": 1,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 3,
+                  "gridRow": 1,
+                }
+              }
+              title="Shortcut: 9"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 3,
+                    "gridRow": 1,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 9"
+              >
+                9
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <OperationGridButton
+        col={4}
+        onClick={[Function]}
+        operation="ADD"
+        row={1}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={4}
+          keyToMap="+"
+          onClick={[Function]}
+          row={1}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="+"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 4,
+                "gridRow": 1,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 4,
+                  "gridRow": 1,
+                }
+              }
+              title="Shortcut: +"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 4,
+                    "gridRow": 1,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: +"
+              >
+                +
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </OperationGridButton>
+      <InputGridButton
+        col={1}
+        input="4"
+        onClick={[Function]}
+        row={2}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={1}
+          keyToMap="4"
+          onClick={[Function]}
+          row={2}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="4"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 1,
+                "gridRow": 2,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 1,
+                  "gridRow": 2,
+                }
+              }
+              title="Shortcut: 4"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 1,
+                    "gridRow": 2,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 4"
+              >
+                4
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputGridButton
+        col={2}
+        input="5"
+        onClick={[Function]}
+        row={2}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={2}
+          keyToMap="5"
+          onClick={[Function]}
+          row={2}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="5"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 2,
+                "gridRow": 2,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 2,
+                  "gridRow": 2,
+                }
+              }
+              title="Shortcut: 5"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 2,
+                    "gridRow": 2,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 5"
+              >
+                5
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputGridButton
+        col={3}
+        input="6"
+        onClick={[Function]}
+        row={2}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={3}
+          keyToMap="6"
+          onClick={[Function]}
+          row={2}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="6"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 3,
+                "gridRow": 2,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 3,
+                  "gridRow": 2,
+                }
+              }
+              title="Shortcut: 6"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 3,
+                    "gridRow": 2,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 6"
+              >
+                6
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <OperationGridButton
+        col={4}
+        onClick={[Function]}
+        operation="SUB"
+        row={2}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={4}
+          keyToMap="-"
+          onClick={[Function]}
+          row={2}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="-"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 4,
+                "gridRow": 2,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 4,
+                  "gridRow": 2,
+                }
+              }
+              title="Shortcut: -"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 4,
+                    "gridRow": 2,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: -"
+              >
+                -
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </OperationGridButton>
+      <InputGridButton
+        col={1}
+        input="1"
+        onClick={[Function]}
+        row={3}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={1}
+          keyToMap="1"
+          onClick={[Function]}
+          row={3}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="1"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 1,
+                "gridRow": 3,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 1,
+                  "gridRow": 3,
+                }
+              }
+              title="Shortcut: 1"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 1,
+                    "gridRow": 3,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 1"
+              >
+                1
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputGridButton
+        col={2}
+        input="2"
+        onClick={[Function]}
+        row={3}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={2}
+          keyToMap="2"
+          onClick={[Function]}
+          row={3}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="2"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 2,
+                "gridRow": 3,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 2,
+                  "gridRow": 3,
+                }
+              }
+              title="Shortcut: 2"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 2,
+                    "gridRow": 3,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 2"
+              >
+                2
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputGridButton
+        col={3}
+        input="3"
+        onClick={[Function]}
+        row={3}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={3}
+          keyToMap="3"
+          onClick={[Function]}
+          row={3}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="3"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 3,
+                "gridRow": 3,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 3,
+                  "gridRow": 3,
+                }
+              }
+              title="Shortcut: 3"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 3,
+                    "gridRow": 3,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 3"
+              >
+                3
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <OperationGridButton
+        col={4}
+        onClick={[Function]}
+        operation="CALCULATE"
+        row="3 / 5"
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={4}
+          keyToMap={
+            Array [
+              "=",
+              "Enter",
+            ]
+          }
+          onClick={[Function]}
+          row="3 / 5"
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap={
+              Array [
+                "=",
+                "Enter",
+              ]
+            }
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 4,
+                "gridRow": "3 / 5",
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 4,
+                  "gridRow": "3 / 5",
+                }
+              }
+              title="Shortcut: = or Enter"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 4,
+                    "gridRow": "3 / 5",
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: = or Enter"
+              >
+                =
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </OperationGridButton>
+      <OperationGridButton
+        col={1}
+        onClick={[Function]}
+        operation="AC"
+        row={4}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={1}
+          keyToMap="c"
+          onClick={[Function]}
+          row={4}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="c"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 1,
+                "gridRow": 4,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 1,
+                  "gridRow": 4,
+                }
+              }
+              title="Shortcut: c"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 1,
+                    "gridRow": 4,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: c"
+              >
+                AC
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </OperationGridButton>
+      <InputGridButton
+        col={2}
+        input="0"
+        onClick={[Function]}
+        row={4}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={2}
+          keyToMap="0"
+          onClick={[Function]}
+          row={4}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="0"
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 2,
+                "gridRow": 4,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 2,
+                  "gridRow": 4,
+                }
+              }
+              title="Shortcut: 0"
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 2,
+                    "gridRow": 4,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: 0"
+              >
+                0
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputGridButton
+        col={3}
+        input="."
+        onClick={[Function]}
+        row={4}
+      >
+        <withGridCell(withKeyMap(Button)})
+          col={3}
+          keyToMap="."
+          onClick={[Function]}
+          row={4}
+          style={Object {}}
+        >
+          <withKeyMap(Button)}
+            innerRef={[Function]}
+            keyToMap="."
+            onClick={[Function]}
+            style={
+              Object {
+                "gridColumn": 3,
+                "gridRow": 4,
+              }
+            }
+          >
+            <Button
+              buttonRef={[Function]}
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "gridColumn": 3,
+                  "gridRow": 4,
+                }
+              }
+              title="Shortcut: ."
+            >
+              <button
+                className="custom-button custom-button--regular"
+                onClick={[Function]}
+                style={
+                  Object {
+                    "gridColumn": 3,
+                    "gridRow": 4,
+                  }
+                }
+                tabIndex={-1}
+                title="Shortcut: ."
+              >
+                .
+              </button>
+            </Button>
+          </withKeyMap(Button)}>
+        </withGridCell(withKeyMap(Button)})>
+      </InputGridButton>
+      <InputButton
+        input="Backspace"
+        onClick={[Function]}
+        style={
+          Object {
+            "display": "none",
+          }
+        }
+      >
+        <withKeyMap(Button)}
+          innerRef={[Function]}
+          keyToMap="Backspace"
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "none",
+            }
+          }
+        >
+          <Button
+            buttonRef={[Function]}
+            className=""
+            onClick={[Function]}
+            style={
+              Object {
+                "display": "none",
+              }
+            }
+            title="Shortcut: B or a or c or k or s or p or a or c or e"
+          >
+            <button
+              className="custom-button custom-button--regular"
+              onClick={[Function]}
+              style={
+                Object {
+                  "display": "none",
+                }
+              }
+              tabIndex={-1}
+              title="Shortcut: B or a or c or k or s or p or a or c or e"
+            >
+              Backspace
+            </button>
+          </Button>
+        </withKeyMap(Button)}>
+      </InputButton>
+    </div>
+  </div>
+</CalculatorDumb>
+`;
