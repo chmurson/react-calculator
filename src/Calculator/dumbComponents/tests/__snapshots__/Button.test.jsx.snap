@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button matches snapshot 1`] = `
+<Button
+  buttonRef={[Function]}
+  className=""
+  onClick={[Function]}
+>
+  <button
+    className="custom-button custom-button--regular"
+    onClick={[Function]}
+    tabIndex={-1}
+  >
+    text
+  </button>
+</Button>
+`;

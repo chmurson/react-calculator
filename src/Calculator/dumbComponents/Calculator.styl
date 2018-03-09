@@ -1,0 +1,29 @@
+.calculator
+  max-width: 400px
+
+  &__area-display
+    display flex
+    flex-direction row-reverse
+    overflow-x hidden
+    height 52px
+
+  &__current-input
+    align-self: flex-end
+
+
+  &__area-buttons
+    display: grid
+    grid-auto-columns 25%
+    flex-wrap: wrap
+    width: 100%
+
+    > *
+      margin: 1px
+
+    &-main-pane
+      width: 75%
+
+    &-right-pane
+      display: flex
+      flex-direction: column
+      width: 25%
